@@ -11,6 +11,7 @@ const App: React.FC = () => {
   // const [count, setCount] = useState(0);
 
   return (
+  
     <div className="flex overflow-hidden flex-col bg-white shadow-[0px_3px_6px_rgba(18,15,40,0.12)]">
       <Header />
       <Hero />
@@ -24,6 +25,7 @@ const App: React.FC = () => {
       />
       <Footer />
     </div>
+  
   );
 }
 
